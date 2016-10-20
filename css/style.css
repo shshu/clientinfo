@@ -1,0 +1,32 @@
+body {
+	margin: 0px;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 20px;
+}
+
+div {
+	padding-top: 10px;
+	padding-right: 16px;
+}
+
+div.navbar {
+	padding: 0px;
+	float: left;
+}
+
+li a {
+	text-decoration: none;
+}
+p {
+	font-size: 10px;
+}
+
+table {
+	border-spacing: 10px;
+	border-collapse: separate;
+}

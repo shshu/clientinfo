@@ -1,0 +1,13 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /css
+  static_dir: css
+- url: /flags-mini
+  static_dir: flags-mini
+- url: /flags
+  static_dir: flags
+- url: /.*
+  script: main.app
